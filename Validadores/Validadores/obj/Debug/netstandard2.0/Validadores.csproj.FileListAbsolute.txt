@@ -1,9 +1,0 @@
-c:\users\jneto\source\repos\Validadores\Validadores\bin\Debug\netstandard2.0\Validadores.deps.json
-c:\users\jneto\source\repos\Validadores\Validadores\bin\Debug\netstandard2.0\Validadores.dll
-c:\users\jneto\source\repos\Validadores\Validadores\bin\Debug\netstandard2.0\Validadores.pdb
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.csprojResolveAssemblyReference.cache
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.csproj.CoreCompileInputs.cache
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.AssemblyInfoInputs.cache
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.AssemblyInfo.cs
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.dll
-c:\users\jneto\source\repos\Validadores\Validadores\obj\Debug\netstandard2.0\Validadores.pdb
