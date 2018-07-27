@@ -10,6 +10,8 @@ namespace Validadores
         {
             var resultado = parametros.Length >= posicoes;
             return resultado;
+
+            var a = 0;
         }
 
         protected virtual bool OsElementosNaoSaoTodosIguaisEntreSi(string parametros)
@@ -17,7 +19,27 @@ namespace Validadores
             var elementosDiferentes = parametros.ToCharArray().ToList();
             var resultado = elementosDiferentes.Distinct().Count() > 1;
 
-            return resultado;
+            StringBuilder sb;
+
+            int b = 1 - 0;
+            var a = 1 % b == 0;
+            if (a)
+            {
+                sb = new StringBuilder();
+                sb.AppendLine("");
+            }
+
+#if false
+               sb.AppendLine("");             
+#endif
+            
+
+            if (true || false)
+            {
+                return resultado;
+            }
+
+            return true;
         }
 
         protected virtual bool VerificarDigitos(string parametros, int posicaoDigito)

@@ -196,6 +196,9 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "SonarAnalyzer.CSharp/7.3.0.5690": {
+        "type": "package"
       }
     }
   },
@@ -656,11 +659,26 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "SonarAnalyzer.CSharp/7.3.0.5690": {
+      "sha512": "KlqoumvXvFU7+YD+hKP4WtKig6F7oUCfJLp94vjkLLVAmHrXebykbFGi5SccgIyVSifTcyFi0E95J9OgQHP+NQ==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/7.3.0.5690",
+      "files": [
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "sonaranalyzer.csharp.7.3.0.5690.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "SonarAnalyzer.CSharp >= 7.3.0.5690"
     ]
   },
   "packageFolders": {
@@ -670,11 +688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive\\_Dev\\_Libs\\Validadores\\VSTS\\Validadores\\Validadores\\Validadores.csproj",
+      "projectUniqueName": "D:\\OneDrive\\_Dev\\_Poc\\SonarLint\\Validadores\\Validadores\\Validadores.csproj",
       "projectName": "Validadores",
-      "projectPath": "D:\\OneDrive\\_Dev\\_Libs\\Validadores\\VSTS\\Validadores\\Validadores\\Validadores.csproj",
+      "projectPath": "D:\\OneDrive\\_Dev\\_Poc\\SonarLint\\Validadores\\Validadores\\Validadores.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive\\_Dev\\_Libs\\Validadores\\VSTS\\Validadores\\Validadores\\obj\\",
+      "outputPath": "D:\\OneDrive\\_Dev\\_Poc\\SonarLint\\Validadores\\Validadores\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -709,6 +727,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "SonarAnalyzer.CSharp": {
+            "target": "Package",
+            "version": "[7.3.0.5690, )"
           }
         },
         "imports": [
